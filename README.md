@@ -1,4 +1,4 @@
-# beeswax
+# Beeswax
 Coding Challenge for Beeswax
 
 ## Explanation
@@ -17,3 +17,6 @@ And our check for a closing brace would look like this:
 ``` if(in_array($char, $array))``` <-- this check is not as efficient as checking against a hardcoded value
 
 This dictionary approach would have been more useful in terms of maintenance if we were planning on expanding our checks to parenthesis or brackets. We would simply add the pairs to the ```$dict``` array. 
+
+## Note
+I just realized my system is running php version 5.5. I think the code I have should be compatible with the most recent version of PHP, but just as a side note :)
